@@ -3,7 +3,24 @@
 }
 .mydiv {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 7%;
+  box-shadow: 1px 1px 5px grey;
+  padding: 10px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+}
+.image {
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
   margin: 10px 7%;
   box-shadow: 1px 1px 5px grey;
   padding: 10px;
